@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a-tomokaku</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+            line-height: 2;
+            color: #1a1a1a;
+            background: #ffffff;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 80px 40px 120px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            margin-bottom: 4rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 2rem;
+            line-height: 2.2;
+            letter-spacing: 0.02em;
+        }
+
+        .intro {
+            margin-bottom: 4rem;
+        }
+
+        .emphasis {
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            position: relative;
+            display: inline-block;
+            padding: 0 0.3em;
+        }
+
+        .emphasis::after {
+            content: '';
+            position: absolute;
+            bottom: 0.2em;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(to right, #1a1a1a 0%, #666 50%, #1a1a1a 100%);
+            opacity: 0.6;
+        }
+
+        .info-box {
+            background: #f8f8f8;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-left: 3px solid #1a1a1a;
+        }
+
+        .info-box p {
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .closing {
+            margin-top: 6rem;
+            padding-top: 4rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .sns-section {
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+            background: #f8f8f8;
+            border-radius: 4px;
+        }
+
+        .sns-section h3 {
+            margin-top: 0;
+        }
+
+        .example-list {
+            margin: 2rem 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .example-list li {
+            padding: 0.8rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .example-list li::before {
+            content: '・';
+            position: absolute;
+            left: 0;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px 80px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 3rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+                margin-top: 3rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            .sns-section {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>解説にかえて</h1>
+
+        <section class="intro">
+            <p>この度は『密行喩送』にご参加いただき、誠にありがとうございます。<br>
+            エンディングの読了をもって、この物語は一旦の終わりを迎えます。</p>
+
+            <p>あなたは報酬を受け取ったものの、具体的な港の情報について報告できなかったために、依頼を完遂できませんでした。あなたは今、事件の全体像が分からず大きな困惑を抱えているかもしれません。</p>
+
+            <p>ここでは「解説にかえて」、あなたが今抱いている謎と困惑を解消するヒントをお伝えします。</p>
+
+            <p>さて、この物語の背景には、２つの違法グループの陰謀と、複数の人間の思惑が絡み合っていました。</p>
+
+            <p>物語の結末は複数存在し、あなたが辿り着いたのは<span class="emphasis">エンディングA　喩送失敗</span>です。</p>
+
+            <p>一つの違法グループの思惑が達成され、少女は親元から連れ去られました。そして、あなたは報酬を得ましたが、ある組織からは恨まれ、別の組織からは新たに声がかけられました。</p>
+
+            <p>では、一体今日、池袋PARCO、ならびに遠く離れた南倉地区で何が起きていたのか。<br>
+            ここからは、事件の真相を推理していきましょう。</p>
+        </section>
+
+        <section>
+            <h2>Point1</h2>
+            <h3>太平洋観光サービスが、三航輸送から奪ったスーツケースの中身とは？</h3>
+
+            <p>物語冒頭、あなたは、依頼人から当初予定していた運び屋の仕事が、荷物が奪われたことによって無くなったことを知りました。奪われたのはスーツケース。この時点では依頼人は中身について語ってはくれませんが、エンディングを呼んだあなたはすでにその正体を知っているはず。</p>
+
+            <p>この物語は、２つの犯罪組織が一人の『お客様』を奪い合う渦中の出来事だったのです。<br>
+            あなたはその中で、依頼人の意思を遂げることも、裏切ることもできました。</p>
+        </section>
+
+        <section>
+            <h2>Point2</h2>
+            <h3>幹部の信頼を勝ち取るために気をつけるべきことはなんだったのか？</h3>
+
+            <p>三航輸送を裏切ったわけでなく、このエンディングにたどり着いたのなら、あなたは太平洋観光サービスの幹部、堂本から信頼を得られなかったのかもしれません。</p>
+
+            <p>警戒心が強く、疑り深いその人物の前では「カメラ」つまりこれまであなたが集めてきた「暗号」を利用する必要がありました。暗号を間違えたり、荷物の中身について知っていたり、といった「今日アドバイスに呼ばれたプロの運び屋」らしくない発言や、三航輸送の依頼を受けてきたことや、警察に自主を促すなどの不用意な言葉は堂本を著しく警戒させてしまうことでしょう。</p>
+
+            <p>彼が完全にあなたへの信頼を失うのは、あなたが３回ミスを犯したときです。ミスを確認するたびに、手の内を隠すようにテーブルの上のものを隠していたはずです。</p>
+        </section>
+
+        <section>
+            <h2>Point3</h2>
+            <h3>取り返せない失敗と、危険な質問</h3>
+
+            <p>堂本のもとに辿り着く前にも、信頼を損ねる可能性のあるピンチがありました。はじめて番場に接触した際、彼から尋ねられた質問に、しっかりと答えることが出来なければ、番場はあなたに疑いをもち、それは堂本に伝わることになります。まずは、番場で失敗しないように、その直前に話を聞いた人物の言葉をしっかりと覚えておきましょう。</p>
+
+            <p>また、堂本と話している最中にも、暗号を用いた危険な質問があります。堂本からすると、緊張を取るための何気ない一言ですが、あなたは非常に困惑したかもしれません。堂本の不可解な暗号の意味を知るためには、席についた時、番場から渡されたマップや自分のまわりを改めて確認するのが賢明です。「H IS CAFE」単なる、場所の名前ではないかもしれません。</p>
+        </section>
+
+        <section>
+            <h2>Point4</h2>
+            <h3>どうすれば、結末を変えられるのか？</h3>
+
+            <p>あなたは依頼人からの頼みを完遂することこそできませんでしたが、大金を手に入れることができました。短い対面の中でしかあなたを知らない堂本は、その後、どうしてかあなたに接触を図っています。それは、あなたに感謝するためか、あるいは、それ以外の目的のためか。</p>
+
+            <p>どうあれ、その他の結末にたどり着きたいのであれば、まずは堂本の信頼を損なわないよう気をつけること。そして、依頼人、または願いを持っている人物に協力してみることでしょう。異なる結末の先には、また別の、隠された真実があるかもしれません。</p>
+        </section>
+
+        <section class="closing">
+            <p>以上が、「解説にかえて」のヒントとなります。</p>
+
+            <p>本公演はリピート参加が可能です。内容自体は変わりませんが、あなた自身の目で、新たな結末に到達できるかもしれません。</p>
+
+            <p>リピート参加の際は、初回と同様にチケットをご購入のうえ、公演開始前に受付でリピート参加である旨をお伝えください。</p>
+
+            <p>また、本公演は公演期間終演後、物語の真相や設定を含めた全解説を、ご登録いただいたLINEにてすべてのアルバイト参加者の方へと公開する予定でございます。具体的な公開時期は、後日ご連絡を申し上げます。</p>
+
+            <p>改めて、この度は『密行喩送』にご参加いただき、誠にありがとうございました。</p>
+        </section>
+
+        <section class="sns-section">
+            <h2>SNS投稿について</h2>
+
+            <p>本公演の内容について（登場人物の名前、出てきた物等）はネタバレとなるため投稿はNGとなります。しかし、以下の物は投稿OKなので、もし楽しんでいただけましたら発信・拡散にご協力をお願いします。</p>
+
+            <h3>NG例</h3>
+            <ul class="example-list">
+                <li>シール暗号が貼ってあったポスター、演者や一般の方の映る写真。コンテンツ内アイテム</li>
+            </ul>
+
+            <h3>OK例</h3>
+            <ul class="example-list">
+                <li>内容のネタバレにならない感想（例:楽しかった、ドキドキした、治験に参加したなど）</li>
+                <li>自身だけが写った写真</li>
+                <li>報酬の封筒・小切手（小切手の裏はNG）</li>
+                <li>義務ちゃん。のお店。の外観（レジのスタッフが映り込む撮影はご遠慮ください）</li>
+                <li>密航喩送のメインビジュアル（ポップアップストアの黒い壁）</li>
+                <li>義務ちゃん。のグッズと密航喩送ビジュアルを一緒に撮るのもOKです</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
